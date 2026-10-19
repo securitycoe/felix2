@@ -1,0 +1,183 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x04110940
+
+[State]
+SysSetCwd='D:\Firmware\30-5015_felix\CMX_RTX'
+SrchSetFlags=0x0006600a
+SrchSetAgainFlags=0x04076005,0
+SrchSetAgainFlags=0x0206600a,1
+FileSortMode=0x0
+_StateView='D:\Firmware\30-5015_felix\Felix_UserMain.c',0,0,1099,789,-1,-1,132,15,122,1,1,'',0x0010001c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_HardwareTask.c',26,26,1021,798,-1,-1,886,79,883,1,2,'',0x0010000c,0,80,0,0,''
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_UserMain.c',0x0400048e,132,15,25,'5 9','',0x0,'',1,72,1,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_HardwareTask.c',0x0c00048e,886,79,25,'5 9','',0x0,'',1,72,0,0
+_StateHistory=FILELIST,'D:\Firmware\30-5015_Felix\Felix_ASyncRePos.h','D:\Firmware\30-5015_Felix\Felix_ASyncShake.c','D:\Firmware\30-5015_Felix\Felix_EStopHandling.h','D:\Firmware\30-5015_Felix\Felix_EStopHandling.c','D:\Firmware\30-5015_Felix\Felix_SlaveTask.h','D:\Firmware\30-5015_Felix\Felix_SlaveTask.c','D:\Firmware\ThirdParty\CMX-RTX\Cxver5.c','D:\Firmware\30-5015_felix\Felix_UserMain.c','D:\Firmware\30-5015_felix\Felix_HardwareTask.c'
+_StateHistory=SEARCH,'FAST_I','HLDEN_','MAC_ENABLE','HLDEN','cybio','ACK','SetUILedBefore','LED_SystemReady','cLED_SystemReady','SystemReady'
+_StateHistory=EDITFILE,'D:\Firmware\ThirdParty\CMX-RTX\cmx_init.c','D:\Firmware\ThirdParty\CMX-RTX\cmx_no_custack.lib','D:\Firmware\ThirdParty\CMX-RTX\Cxver5.c','D:\Firmware\ThirdParty\CMX-RTX\Cmxio3.c','D:\Firmware\ThirdParty\CMX-RTX\Cxskv5s.asm','D:\Firmware\ThirdParty\CMX-RTX-New\CMX\Cxskv5s.asm','D:\Firmware\ThirdParty\CMX-RTX\Cxskv5s.asm','D:\Firmware\30-5015_Felix\CMX_RTX\cmx_init.c','D:\Firmware\30-5015_Felix\Libs\CMX-RTX\Cxver5.c','D:\Firmware\30-5015_Felix\Libs\CMX-RTX\Cxskv5s.asm'
+_StateHistory=DOCUMENTVISIT,'1           1           D:\Firmware\30-5015_Felix\Felix_ASyncMove.c','1           1           D:\Firmware\30-5015_Felix\Felix_ASyncMove.h','1           1           D:\Firmware\30-5015_Felix\Felix_ASyncRePos.c','1           1           D:\Firmware\30-5015_Felix\Felix_ASyncRePos.h','1           1           D:\Firmware\30-5015_Felix\Felix_ASyncShake.c','1           1           D:\Firmware\30-5015_Felix\Felix_EStopHandling.h','1           1           D:\Firmware\30-5015_Felix\Felix_EStopHandling.c','1           1           D:\Firmware\30-5015_Felix\Felix_SlaveTask.h','1           1           D:\Firmware\30-5015_Felix\Felix_SlaveTask.c','886         79          D:\Firmware\30-5015_felix\Felix_HardwareTask.c'
+_StateDocumentVisit=10
+
+[Editor]
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+_RestoreSysFlags=0x43097fca, 0xfffffffc, 0
+_RestoreSysFlags=0x40010005, 0xffffffff, 1
+CollapseMode=0x13080610
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe'
+
+[Compiler]
+TagSetCmd='"${HOME}${WTAGS}" -oc -d -t"${TAGFILE}.tag" -p"${TAGFILE}.ptg"',0x8000060
+BrowseSetFile='D:\Firmware\30-5015_Felix\CMX_RTX\Felix_RTX.ptg'
+TagSetFile='D:\Firmware\30-5015_Felix\CMX_RTX\Felix_RTX.tag'
+CompilerAddCmdEx='TASKING src','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING src',
+CompilerAddCmdEx='TASKING ccm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING ccm',
+CompilerAddCmdEx='TASKING fle','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING fle',
+CompilerAddCmdEx='TASKING asm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING asm',
+CompilerAddCmdEx='TASKING icm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING icm',
+CompilerAddCmdEx='TASKING cxx','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING cxx',
+CompilerAddCmdEx='TASKING cc','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING cc',
+CompilerAddCmdEx='TASKING cmp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING cmp',
+CompilerAddCmdEx='$_cw_proj_hash_$','',1073741920,'',1073741920,'!EdeExecBuild()',1073741984,'',0,'!EdeExecRebuild()',1073741984,'',0,'!EdeExecDebug()',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err','%x'
+CompilerAddResponse='$_cw_proj_hash_$',
+CompilerAddCmdEx='TASKING ic','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING ic',
+CompilerAddCmdEx='TASKING cpp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING cpp',
+CompilerAddCmdEx='TASKING c','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.err',''
+CompilerAddResponse='TASKING c',
+CompilerNewExt=.v
+CompilerNewExt=.src
+CompilerNewExt=.htm
+CompilerNewExt=.bas
+CompilerNewExt=.awk
+CompilerNewExt=.jsp
+CompilerNewExt=.cfml
+CompilerNewExt=.adb
+CompilerNewExt=.vhd
+CompilerNewExt=.pl
+CompilerNewExt=.pas
+CompilerNewExt=.tk
+CompilerNewExt=.rul
+CompilerNewExt=.asp
+CompilerNewExt=.js
+CompilerNewExt=.cob
+CompilerNewExt=.tcl
+CompilerNewExt=.rc
+CompilerNewExt=.php
+CompilerNewExt=.cc
+CompilerNewExt=.ini
+CompilerNewExt=.html
+CompilerNewExt=.bat
+CompilerNewExt=.cs
+CompilerNewExt=.txt
+CompilerNewExt=.nrx
+CompilerNewExt=.xml
+CompilerNewExt=.sqlj
+CompilerNewExt=.java
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@"%Q" -M@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@"%Q" -M@"%Q" -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f "%b%{??v|___}e"',0x8000040
+
+[Files]
+.\Cxconfig.h
+..\Libs\CMX-RTX\Cxver5.c
+..\Libs\CMX-RTX\Cxskv5s.asm
+.\cmx_init.c
+
+[Ede]
+Toolchain=c:\program files (x86)\tasking\c166 v8.8r1\etc\c166.dol
+ToolchainName=TASKING Tools for C166/ST10  v8.8r1
+ProjectDir=d:\firmware\30-5015_felix\cmx_rtx
+OutputDir=d:\firmware\30-5015_Felix\cmx_rtx\output
+EdeVersion=99.9r9 (Build 152)
+CodeWrightVersion=6.5b
+DefBuildSettings=True
+SaveFiles=True
+AbsolutePathNames=False
+StopAfterError=True
+KeepTmpFiles=False
+ExtMakefile=False
+ExtMakefileName=
+UserMakefile=False
+UserMakefileName=
+UseMakeOptions=False
+MakeOptions=
+CheckTarget=True
+ExtDebugger=False
+ExtDebuggerName=
+UseDOSShell=False
+SaveOptionMethod=0
+SaveOptionFileName=d:\firmware\30-5015_felix\cmx_rtx\felix_rtx.opt
+LoadOptionFileName=
+LoadOptionStartup=False
+GroupProc=0
+GroupCpp=0
+GroupC=0
+GroupMisraC=0
+GroupAsm=0
+GroupMpp=0
+GroupLL=0
+GroupXvw=0
+DASSetup=0
+GroupList=GroupProc,GroupCpp,GroupC,GroupMisraC,GroupAsm,GroupMpp,GroupLL,GroupXvw,DASSetup
+
+[Directories]
+BinDir1=$(PRODDIR)\bin
+IncDir1=d:\firmware
+IncDir2=d:\firmware\30-5015_felix\libs\standard
+IncDir3=d:\firmware\30-5015_Felix\cmx_rtx
+IncDir4=d:\firmware\30-5015_felix\libs\cmx-rtx
+IncDir5=$(PRODDIR)\include
+LibDir1=$(PRODDIR)\lib
+
+[DefaultOptions]
+CpuType=CpuXE167F
+CpuCPUAddStartupCode=0
+OutLib=1
+CDefineList=CDefineMacro,NDEBUG,CDefineDefinition
+CPragma=nocustack
+OutAbs=0
+
+[Options]
+FileList=..\libs\cmx-rtx\cxskv5s.asm
+
+[..\Libs\CMX-RTX\Cxskv5s.asm_Options]
+MppDefineMacrosList=MppDefineMacrosMacro,MAC_ENABLE,FAST_INT_ENABLE,SLICE_ENABLE,MppDefineMacrosDefinition,1,1,0
+
+[Project]
+ConfigSetLinkDBFilename='C:\Users\i10166005\AppData\Local\TASKING\c166 v8.8r1\cwright.ldb'
+ConfigSetMarkDBFilename='C:\Users\i10166005\AppData\Local\TASKING\c166 v8.8r1\cwright.mrk'
+ConfigSetSymbolDBFilename='D:\Firmware\30-5015_Felix\CMX_RTX\Felix_RTX.sbl'
+EditSetPath=''

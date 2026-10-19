@@ -1,0 +1,447 @@
+;Codewright Project File (do not remove or modify this line)
+[Files]
+.\start.asm
+.\Scan.c
+.\_iob.c
+.\Felix_Hardware.c
+.\Felix_UserMain.c
+.\MyScanner.c
+.\Felix_ReadWrit.C
+.\MyScanner.h
+.\Scan.h
+.\DeviceConfig.h
+.\Felix_Hardware.h
+.\Felix_UserMain.h
+.\XE167F\Felix_XE167F.pjt
+.\Felix_CmdCtrl.h
+.\Felix_Cmd.c
+.\Felix_Cmd.h
+.\Felix_CmdCtrl.c
+.\CMX_RTX\Felix_RTX.pjt
+.\Felix_MotorTask.h
+.\Felix_MotorTask.c
+.\MDrive_CmdCtrl.c
+.\MDrive_CmdCtrl.h
+.\Drv_config.h
+.\Drv_config.c
+.\MDriveCmd.h
+.\MDriveCmd.c
+.\Felix_Misc.c
+.\Felix_Misc.h
+.\MotorExe.c
+.\MotorExe.h
+.\LPK.c
+.\LPK.h
+.\Felix_ASyncCtrl.c
+.\Felix_ASyncCtrl.h
+.\Felix_FRAM.c
+.\Felix_FRAM.h
+.\Felix_HardwareTask.c
+.\Felix_HardwareTask.h
+.\Felix_Slave.c
+.\Felix_Slave.h
+.\Felix_Opticon.h
+.\Felix_Opticon.c
+.\Felix_BCL8.h
+.\Felix_Barcode.c
+.\Felix_Barcode.h
+.\Felix_BCL8.c
+.\Felix_BarcodeCmd.h
+.\Felix_BarcodeCmd.c
+.\Felix_ASyncShake.h
+.\Felix_ASync.c
+.\Felix_ASync.h
+.\Felix_ASyncHoming.c
+.\Felix_ASyncHoming.h
+.\Felix_ASyncMove.c
+.\Felix_ASyncMove.h
+.\Felix_ASyncRePos.c
+.\Felix_ASyncRePos.h
+.\Felix_ASyncShake.c
+.\Felix_EStopHandling.h
+.\Felix_EStopHandling.c
+.\Felix_SlaveTask.h
+.\Felix_SlaveTask.c
+.\Felix_CmdParallel.h
+.\Felix_CmdParallel.c
+.\MDrive_BusCtrl.c
+.\MDrive_BusCtrl.h
+.\Felix_ASyncSearchAdapter.c
+.\Felix_DoorLifter.c
+.\Felix_DoorLifter.h
+.\Libs\developmentbase\DevCmds.h
+.\Libs\developmentbase\DevCmds.c
+.\Libs\developmentbase\DevError.h
+.\Libs\crc16\CRC16.H
+.\Libs\crc16\CRC16.C
+.\Libs\spi\SPI_XE167.h
+.\Libs\spi\SPI_PORT_PINS.c
+.\Libs\fram\FRAM_SPI_V1.H
+.\Libs\fram\FRAM_SPI_V1.c
+
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x04110940
+
+[State]
+SysSetCwd='D:\Firmware\30-5015_felix'
+SrchSetFlags=0x0006600a
+SrchSetAgainFlags=0x04076004,0
+SrchSetAgainFlags=0x02056004,1
+FileSortMode=0x0
+_StateView='D:\Firmware\30-5015_felix\Felix_UserMain.c',56,40,1047,643,-1,-1,100,3,44,1,6,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_EStopHandling.c',156,156,532,952,-1,-1,70,1,19,1,22,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_EStopHandling.h',182,182,532,952,-1,-1,19,1,1,1,23,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_CmdCtrl.c',208,208,532,952,-1,-1,400,46,364,1,10,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_BarcodeCmd.c',26,26,558,905,-1,-1,205,53,157,1,17,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Libs\developmentbase\DevCmds.h',234,234,532,952,-1,-1,1,1,1,1,24,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Drv_config.h',104,104,1426,565,-1,-1,36,9,16,1,3,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_Cmd.h',182,182,558,905,-1,-1,53,7,5,1,16,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\DeviceConfig.h',130,130,1426,565,-1,-1,29,1,10,1,1,'',0x0010001c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_Misc.c',260,260,662,648,-1,-1,89,20,62,1,4,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_FRAM.c',104,104,472,1051,-1,-1,909,16,865,1,25,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_Cmd.c',130,130,472,1051,-1,-1,799,73,757,1,9,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_HardwareTask.c',312,312,558,905,-1,-1,1584,29,1562,1,12,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_BCL8.c',234,234,558,905,-1,-1,131,49,83,1,26,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Libs\developmentbase\DevCmds.c',208,208,558,905,-1,-1,136,32,99,1,27,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_ASyncCtrl.c',338,338,532,947,-1,-1,832,1,769,1,7,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_ASyncCtrl.h',156,156,558,905,-1,-1,53,68,5,14,18,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_ASyncRePos.c',130,130,558,865,-1,-1,290,8,221,1,2,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_ASync.c',364,364,532,947,-1,-1,669,44,647,1,8,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_ASync.h',0,0,558,905,-1,-1,94,3,57,1,19,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_MotorTask.c',390,390,532,947,-1,-1,1253,47,1216,1,5,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\MDrive_CmdCtrl.c',416,416,532,947,-1,-1,269,43,242,1,13,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\MDrive_CmdCtrl.h',52,52,532,912,-1,-1,184,6,172,1,20,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Scan.c',26,26,532,912,-1,-1,133,51,115,1,28,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Libs\developmentbase\DevError.h',52,52,584,785,-1,-1,309,78,242,1,11,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\MDrive_BusCtrl.c',442,442,532,947,-1,-1,824,57,796,1,14,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\Felix_DoorLifter.c',312,312,662,648,-1,-1,1929,5,1911,1,21,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\LPK.c',286,286,662,648,-1,-1,160,53,127,1,29,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\XE167F\CC2.C',78,78,1426,565,-1,-1,310,48,302,1,30,'',0x0010000c,0,80,0,0,''
+_StateView='D:\Firmware\30-5015_felix\MDriveCmd.c',78,78,532,912,-1,-1,40,47,1,1,15,'',0x0010001c,0,80,0,0,''
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_UserMain.c',0x0400048e,100,3,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_EStopHandling.c',0x0400048e,70,1,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_EStopHandling.h',0x0400048e,19,1,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_CmdCtrl.c',0x0400048e,400,46,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_BarcodeCmd.c',0x0c00048e,206,53,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Libs\developmentbase\DevCmds.h',0x0000048e,1,1,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Drv_config.h',0x0400048e,36,9,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_Cmd.h',0x0400048e,60,7,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\DeviceConfig.h',0x0400048e,29,1,25,'5 9','',0x0,'',1,72,1,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_Misc.c',0x0400048e,89,20,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_FRAM.c',0x0400048e,909,16,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_Cmd.c',0x0400048e,799,73,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_HardwareTask.c',0x0400048e,1584,29,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_BCL8.c',0x0c00048e,138,49,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Libs\developmentbase\DevCmds.c',0x0400048e,136,32,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_ASyncCtrl.c',0x0400048e,832,1,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_ASyncCtrl.h',0x0400048e,72,70,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_ASyncRePos.c',0x0400048e,290,8,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_ASync.c',0x0400048e,669,44,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_ASync.h',0x0400048e,94,3,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_MotorTask.c',0x0400048e,1253,47,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\MDrive_CmdCtrl.c',0x0c00048e,269,43,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\MDrive_CmdCtrl.h',0x0400048e,184,6,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Scan.c',0x0400048e,133,51,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Libs\developmentbase\DevError.h',0x0c00048e,309,78,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\MDrive_BusCtrl.c',0x0c00048e,824,57,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\Felix_DoorLifter.c',0x0400048e,1929,5,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\LPK.c',0x0400048e,161,53,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\XE167F\CC2.C',0x0400048e,310,48,25,'5 9','',0x0,'',1,72,0,0
+_StateBuffer='D:\Firmware\30-5015_felix\MDriveCmd.c',0x0c00048e,40,47,25,'5 9','',0x0,'',1,72,0,0
+_StateHistory=FILELIST,'D:\Firmware\30-5015_felix\Felix_ASyncCtrl.h','D:\Firmware\30-5015_felix\Felix_Cmd.h','D:\Firmware\30-5015_felix\Libs\developmentbase\DevCmds.c','D:\Firmware\30-5015_felix\Felix_BCL8.c','D:\Firmware\30-5015_felix\Felix_ASync.h','D:\Firmware\30-5015_felix\_iob.c','D:\Firmware\30-5015_felix\Drv_config.c','D:\Firmware\30-5015_felix\Felix_BarcodeCmd.c','D:\Firmware\30-5015_felix\Felix_HardwareTask.c'
+_StateHistory=SEARCH,'cmdLPKCheckError','ERR_SAFETY_MONITORING','g_ASync_EStopMoveRestorePos','eASyncEStopMoveRestorePos','m_Async_EStopRestorePos','ASync_EStopMoveRestorePos','m_Async_Hippie_Safety','_CF_485_SLAVE_OUTPUT_DEBUG_PRINT','FELIX_BASE_ID','_CF_ESTOP_DEBUG_PRINT'
+_StateHistory=REPLACE,'TF_DBG_CTRLCMD','m_MsgASyncMot','Bus_IMS_LPK_Control(','Bus_Command_TxRx','Bus_Command_TxRx(ID, 0, "%s"','SearchAdapter','SEARCHADAPTER_','void);','void){}','const short ID'
+_StateHistory=EDITFILE,'D:\Firmware_Carry\30-3951_Mov3D\Mov_Cmd.c','D:\Firmware\30-5015_Felix\Libs\developmentbase\DevCmds.h','D:\Firmware\30-5015_Felix\Libs\developmentbase\DevCmds.c','D:\Firmware\30-5015_Felix\Libs\developmentbase\DevError.h','D:\Firmware\30-5015_Felix\Libs\crc16\CRC16.H','D:\Firmware\30-5015_Felix\Libs\crc16\CRC16.C','D:\Firmware\30-5015_Felix\Libs\spi\SPI_XE167.h','D:\Firmware\30-5015_Felix\Libs\spi\SPI_PORT_PINS.c','D:\Firmware\30-5015_Felix\Libs\fram\FRAM_SPI_V1.H','D:\Firmware\30-5015_Felix\Libs\fram\FRAM_SPI_V1.c'
+_StateHistory=PRNHEADER,'IMS_LowLevel  %p','IMS_LowLewelExe  %p','IMS_KPK  %p','IMS_LPK_LowLewelSend  %p','IMS_LPK_LowLewelReceive  %p','IMS_LPK_LowLewelSendExe  %p','IMS_LPK_LowLewelReceiveExe  %p'
+_StateHistory=DOCUMENTVISIT,'420         17          D:\Firmware\30-5015_felix\MDrive_CmdCtrl.c','393         72          D:\Firmware\30-5015_felix\Felix_CmdCtrl.c','883         1           D:\Firmware\30-5015_felix\Felix_Cmd.c','400         46          D:\Firmware\30-5015_felix\Felix_CmdCtrl.c','824         57          D:\Firmware\30-5015_felix\MDrive_BusCtrl.c','309         78          D:\Firmware\30-5015_felix\Libs\developmentbase\DevError.h','400         46          D:\Firmware\30-5015_felix\Felix_CmdCtrl.c','832         1           D:\Firmware\30-5015_felix\Felix_ASyncCtrl.c','100         3           D:\Firmware\30-5015_felix\Felix_UserMain.c','36          9           D:\Firmware\30-5015_felix\Drv_config.h'
+_StateHistory=XOBJECTS,'DEV_CONFIG','DEV_CONFIG*','RDrvReadWayPos','DRV_PARA','SetDrvOffset','ZDrvAbort','regxe167f','malloc','Felix_FRAM','TF_DBG_485'
+_StateDocumentVisit=10
+
+[Editor]
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+_RestoreSysFlags=0x43097fca, 0xfffffffc, 0
+_RestoreSysFlags=0x40010005, 0xffffffff, 1
+CollapseMode=0x13080610
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe'
+
+[Compiler]
+TagSetCmd='"${HOME}${WTAGS}" -oc -d -t"${TAGFILE}.tag" -p"${TAGFILE}.ptg"',0x8000060
+BrowseSetFile='D:\Firmware\30-5015_Felix\Felix_MAIN.ptg'
+TagSetFile='D:\Firmware\30-5015_Felix\Felix_MAIN.tag'
+CompilerAddCmdEx='TASKING src','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING src',
+CompilerAddCmdEx='TASKING ccm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING ccm',
+CompilerAddCmdEx='TASKING fle','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING fle',
+CompilerAddCmdEx='TASKING asm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING asm',
+CompilerAddCmdEx='TASKING icm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING icm',
+CompilerAddCmdEx='TASKING cxx','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING cxx',
+CompilerAddCmdEx='TASKING cc','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING cc',
+CompilerAddCmdEx='TASKING cmp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING cmp',
+CompilerAddCmdEx='$_cw_proj_hash_$','',1073741920,'',1073741920,'!EdeExecBuild()',1073741984,'',0,'!EdeExecRebuild()',1073741984,'',0,'!EdeExecDebug()',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err','%x'
+CompilerAddResponse='$_cw_proj_hash_$',
+CompilerAddCmdEx='TASKING ic','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING ic',
+CompilerAddCmdEx='TASKING cpp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING cpp',
+CompilerAddCmdEx='TASKING c','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_felix\felix_main.err',''
+CompilerAddResponse='TASKING c',
+CompilerNewExt=.v
+CompilerNewExt=.src
+CompilerNewExt=.htm
+CompilerNewExt=.bas
+CompilerNewExt=.awk
+CompilerNewExt=.jsp
+CompilerNewExt=.cfml
+CompilerNewExt=.adb
+CompilerNewExt=.vhd
+CompilerNewExt=.pl
+CompilerNewExt=.pas
+CompilerNewExt=.tk
+CompilerNewExt=.rul
+CompilerNewExt=.asp
+CompilerNewExt=.js
+CompilerNewExt=.cob
+CompilerNewExt=.tcl
+CompilerNewExt=.rc
+CompilerNewExt=.php
+CompilerNewExt=.cc
+CompilerNewExt=.ini
+CompilerNewExt=.html
+CompilerNewExt=.bat
+CompilerNewExt=.cs
+CompilerNewExt=.txt
+CompilerNewExt=.nrx
+CompilerNewExt=.xml
+CompilerNewExt=.sqlj
+CompilerNewExt=.java
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@"%Q" -M@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@"%Q" -M@"%Q" -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f "%b%{??v|___}e"',0x8000040
+.\Scan.c
+.\_iob.c
+.\Felix_Hardware.c
+.\Felix_UserMain.c
+.\MyScanner.c
+.\Felix_ReadWrit.C
+.\MyScanner.h
+.\Scan.h
+.\DeviceConfig.h
+.\Felix_Hardware.h
+.\Felix_UserMain.h
+.\XE167F\Felix_XE167F.pjt
+.\Felix_CmdCtrl.h
+.\Felix_Cmd.c
+.\Felix_Cmd.h
+.\Felix_CmdCtrl.c
+..\DevelpomentBase\DevCmds.c
+..\DevelpomentBase\DevCmds.h
+.\CMX_RTX\Felix_RTX.pjt
+.\Felix_MotorTask.h
+.\Felix_MotorTask.c
+.\MDrive_CmdCtrl.c
+.\MDrive_CmdCtrl.h
+..\DevelpomentBase\DevError.h
+.\Drv_config.h
+.\Drv_config.c
+.\MDriveCmd.h
+.\MDriveCmd.c
+.\Felix_Misc.c
+.\Felix_Misc.h
+.\MotorExe.c
+.\MotorExe.h
+.\LPK.c
+.\LPK.h
+.\Felix_ASyncCtrl.c
+.\Felix_ASyncCtrl.h
+..\shared\busse\SPI\SPI_PORT_PINS.c
+..\shared\CRC\CRC16\CRC16.H
+..\shared\CRC\CRC16\CRC16.C
+..\shared\speicher\fram\FRAM_SPI_V1.H
+..\shared\speicher\fram\FRAM_SPI_V1.c
+..\shared\busse\SPI\SPI_XE167.h
+.\Felix_FRAM.c
+.\Felix_FRAM.h
+.\Felix_HardwareTask.c
+.\Felix_HardwareTask.h
+.\Felix_Slave.c
+.\Felix_Slave.h
+.\Felix_Opticon.h
+.\Felix_Opticon.c
+.\Felix_BCL8.h
+.\Felix_Barcode.c
+.\Felix_Barcode.h
+.\Felix_BCL8.c
+.\Felix_BarcodeCmd.h
+.\Felix_BarcodeCmd.c
+.\Felix_ASyncShake.h
+.\Felix_ASync.c
+.\Felix_ASync.h
+.\Felix_ASyncHoming.c
+.\Felix_ASyncHoming.h
+.\Felix_ASyncMove.c
+.\Felix_ASyncMove.h
+.\Felix_ASyncRePos.c
+.\Felix_ASyncRePos.h
+.\Felix_ASyncShake.c
+.\Felix_EStopHandling.h
+.\Felix_EStopHandling.c
+.\Felix_SlaveTask.h
+.\Felix_SlaveTask.c
+.\Felix_CmdParallel.h
+.\Felix_CmdParallel.c
+
+[Ede]
+Toolchain=c:\program files (x86)\tasking\c166 v8.8r1\etc\c166.dol
+ToolchainName=TASKING Tools for C166/ST10  v8.8r1
+ProjectDir=d:\firmware\30-5015_felix
+OutputDir=d:\firmware\30-5015_Felix\output
+EdeVersion=99.9r9 (Build 152)
+CodeWrightVersion=6.5b
+DefBuildSettings=True
+SaveFiles=True
+AbsolutePathNames=False
+StopAfterError=True
+KeepTmpFiles=False
+ExtMakefile=False
+ExtMakefileName=
+UserMakefile=False
+UserMakefileName=
+UseMakeOptions=False
+MakeOptions=
+CheckTarget=True
+ExtDebugger=False
+ExtDebuggerName=
+UseDOSShell=False
+SaveOptionMethod=0
+SaveOptionFileName=d:\firmware\30-5015_felix\felix_main.opt
+LoadOptionFileName=d:\firmware\30-5015_felix\xe167f\lifter_xe167f.opt
+LoadOptionStartup=False
+GroupProc=0
+GroupCpp=0
+GroupC=0
+GroupMisraC=0
+GroupAsm=0
+GroupMpp=0
+GroupLL=0
+GroupXvw=0
+DASSetup=0
+GroupList=GroupProc,GroupCpp,GroupC,GroupMisraC,GroupAsm,GroupMpp,GroupLL,GroupXvw,DASSetup
+
+[Directories]
+BinDir1=$(PRODDIR)\bin
+IncDir1=d:\firmware
+IncDir2=d:\firmware\30-5015_felix\libs\standard
+IncDir3=d:\firmware\30-5015_Felix
+IncDir4=d:\firmware\30-5015_Felix\xe167f
+IncDir5=d:\firmware\30-5015_Felix\cmx_rtx
+IncDir6=d:\firmware\30-5015_felix\libs\developmentbase
+IncDir7=d:\firmware\30-5015_felix\libs\crc16
+IncDir8=d:\firmware\30-5015_felix\libs\fram
+IncDir9=d:\firmware\30-5015_felix\libs\spi
+IncDir10=d:\firmware\30-5015_felix\libs\undefs
+IncDir11=d:\firmware\30-5015_felix\libs\cmx-rtx
+IncDir12=$(PRODDIR)\include
+LibDir1=$(PRODDIR)\lib
+
+[DefaultOptions]
+CpuType=CpuXE167F
+CpuDerivative=FlashXE167F96F
+CPUCON1=0x0007
+LocSmallModelDef=0
+LocSmallModelPag=1
+LocDPP0=769
+LocDPP1=897
+LocDPP2=896
+CpuEva=0
+FlashVectorBaseAddress=FlashVectorBaseAddressVECSEG
+CPUCON2=0x8FBB
+SYSCON1=0x0003
+VECSEG_enable=1
+VECSEG=0x00C0
+ADDRSEL7_enable=1
+ADDRSEL7=0x0000
+EBCMOD0_enable=1
+EBCMOD0=0x5400
+FCONCS0_enable=1
+FCONCS0=0x0000
+FCONCS7=0x0027
+TCONCS0_enable=1
+TCONCS0=0x0000
+CppDefineList=CppDefineMacro,_ONLY_STEP_AND_DIRECTION_,_NO_FRAM_COMMANDS_,_NO_TQM_DISPLAY_,_OL7001_SELMA_CMD_H_,CppDefineDefinition,1
+CPragma=nocustack
+OutIHex=1
+LnkLocHeaderPage=1
+LnkLocRegMap=1
+LnkLocSymbTab=1
+LnkLocSummary=1
+LocMemList=LocMemListType,LocMemListTypeRam,LocMemListTypeRam,LocMemListTypeRam,LocMemListTypeRom,LocMemListTypeRom,LocMemListStart,0A000h,0F600h,0E00000h,0C00000h,0C10000h,LocMemListEnd,0DFFFh,0FDFFh,0E0FFFFh,0C0EFFFh,0CBFFFFh,LocMemListFill,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListPattern,0xFF,0xFF,0xFF,0xFF,0xFF,LocMemListNotes
+LocMemReserveIRAM=0
+LocHeapSize=4048
+CpuExt2SskSize=512
+
+[Options]
+FileList=.\mdrive_cmdctrl.c,.\felix_cmd.c,.\felix_motortask.c,.\felix_usermain.c,.\felix_misc.c,.\felix_asyncctrl.c,.\mdrivecmd.c,.\felix_fram.c,.\motorexe.c
+
+[Project]
+ConfigSetLinkDBFilename='C:\Users\i10166005\AppData\Local\TASKING\c166 v8.8r1\cwright.ldb'
+ConfigSetMarkDBFilename='C:\Users\i10166005\AppData\Local\TASKING\c166 v8.8r1\cwright.mrk'
+ConfigSetSymbolDBFilename='D:\Firmware\30-5015_Felix\FELIX_MAIN.sbl'
+EditSetPath=''
+
+[.\mdrive_cmdctrl.c_Options]
+COptim=CNoOptim
+
+[.\felix_cmd.c_Options]
+COptim=CNoOptim
+
+[.\felix_motortask.c_Options]
+COptim=CNoOptim
+
+[.\felix_usermain.c_Options]
+COptim=CNoOptim
+
+[.\felix_misc.c_Options]
+COptim=CNoOptim
+
+[.\felix_asyncctrl.c_Options]
+COptim=CNoOptim
+
+[.\mdrivecmd.c_Options]
+COptim=CNoOptim
+
+[.\felix_fram.c_Options]
+COptim=CNoOptim
+
+[.\motorexe.c_Options]
+COptim=CNoOptim

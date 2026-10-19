@@ -1,0 +1,263 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x04110940
+
+[State]
+SysSetCwd='D:\Firmware'
+SrchSetFlags=0x0006600a
+SrchSetAgainFlags=0x04076004,0
+SrchSetAgainFlags=0x0202600a,1
+FileSortMode=0x0
+_StateHistory=FILELIST,'D:\Firmware\30-5015_Felix\XE167F\MAIN.H','D:\Firmware\ThirdParty\CMX-RTX\Cxstruct.h','D:\Firmware\ThirdParty\CMX-RTX\Cxfuncs.h','D:\Firmware\ThirdParty\CMX-RTX\Cxdefine.h','D:\Firmware\30-5015_Felix\XE167F\MAIN.C','D:\Firmware\30-5015_Felix\Felix_MotorTask.c','D:\Firmware\30-5015_Felix\Felix_UserMain.c','D:\Firmware\30-5015_Felix\XE167F\USIC1.C','D:\Firmware\30-5015_Felix\XE167F\U1C0_SLAVE_COM5.C'
+_StateHistory=SEARCH,'IERR_STALL_ABORT','CmdExecutionRT','GPT2_vLoadTmr','T5_Timeout','"Felix_Cmd','DeviceConfig.h','ASC1_IN','NULL','#include <string.h>','Felix_Hardware'
+_StateHistory=REPLACE,'//((T_'
+_StateHistory=EDITFILE,'D:\Firmware\30-5015_Felix\XE167F\U1C1_USB_COM2.H','D:\Firmware\30-5015_Felix\XE167F\U2C0_LAN_COM3.H','D:\Firmware\30-5015_Felix\XE167F\U2C1_RS232_COM4.H','D:\Firmware\30-5015_Felix\XE167F\USIC0.H','D:\Firmware\30-5015_Felix\XE167F\USIC1.H','D:\Firmware\30-5015_Felix\XE167F\USIC2.H','D:\Firmware\30-5015_Felix\XE167F\WDT.H','D:\Firmware\OL7001_MPip96\OL7001_MPip96.psp','D:\Firmware\ThirdParty\CMX-RTX\Cxdefine.h','D:\Firmware\30-7022_KFA\_30_5003_KFA.psp'
+_StateHistory=DOCUMENTVISIT,'9           60          D:\Firmware\30-5015_Felix\Felix_UserMain.c','195         25          D:\Firmware\30-5015_Felix\XE167F\USIC1.C','157         21          D:\Firmware\30-5015_Felix\XE167F\MAIN.H','387         90          D:\Firmware\30-5015_Felix\Drv_config.c','66          1           D:\Firmware\30-5015_Felix\XE167F\ASC0.C','30          41          D:\Firmware\30-5015_Felix\XE167F\MAIN.C','796         65          D:\Firmware\30-5015_Felix\Felix_MotorTask.c','9           60          D:\Firmware\30-5015_Felix\Felix_UserMain.c','195         25          D:\Firmware\30-5015_Felix\XE167F\USIC1.C','297         3           D:\Firmware\30-5015_Felix\XE167F\U1C0_SLAVE_COM5.C'
+_StateHistory=XOBJECTS,'cxdefine'
+_StateDocumentVisit=10
+
+[Editor]
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+_RestoreSysFlags=0x43097fca, 0xfffffffc, 0
+_RestoreSysFlags=0x40010005, 0xffffffff, 1
+CollapseMode=0x13080610
+FilterProjDeleteList 
+FilterProjAdd='Source Files','*.c;*.cc;*.cpp;*.cxx;*.ic;*.c96;*.fle;*.cmp;*.asm;*.src;*.s;*.a96;*.i;*.pcp;*.68k',-1
+FilterProjAdd='Header Files','*.h;*.h68;*.inc;*.sfr',-1
+FilterProjAdd='Project Files','*.pjt;*.dpt',-1
+FilterProjAdd='Resources','*.rc;*.bmp;*.ico;*.cur;*.dlg',-1
+FilterProjAdd='Other Files','*.*',-1
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe'
+
+[Compiler]
+TagSetCmd='"${HOME}${WTAGS}" -oc -d -t"${TAGFILE}.tag" -p"${TAGFILE}.ptg"',0x8000060
+BrowseSetFile='D:\Firmware\30-5015_Felix\XE167F\Felix_XE167F.ptg'
+TagSetFile='D:\Firmware\30-5015_Felix\XE167F\Felix_XE167F.tag'
+CompilerAddCmdEx='TASKING ccm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING ccm',
+CompilerAddCmdEx='TASKING src','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING src',
+CompilerAddCmdEx='TASKING fle','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING fle',
+CompilerAddCmdEx='TASKING cc','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING cc',
+CompilerAddCmdEx='TASKING cxx','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING cxx',
+CompilerAddCmdEx='TASKING icm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING icm',
+CompilerAddCmdEx='TASKING asm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING asm',
+CompilerAddCmdEx='TASKING cmp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING cmp',
+CompilerAddCmdEx='$_cw_proj_hash_$','',1073741824,'',0,'!EdeExecBuild()',1073741984,'',0,'!EdeExecRebuild()',1073741984,'',0,'!EdeExecDebug()',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err','%x'
+CompilerAddResponse='$_cw_proj_hash_$',
+CompilerAddCmdEx='TASKING cpp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING cpp',
+CompilerAddCmdEx='TASKING ic','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING ic',
+CompilerAddCmdEx='TASKING c','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','d:\firmware\30-5015_Felix\xe167f\Felix_xe167f.err',''
+CompilerAddResponse='TASKING c',
+CompilerNewExt=.htm
+CompilerAssign='TASKING src','.src'
+CompilerNewExt=.v
+CompilerNewExt=.awk
+CompilerNewExt=.bas
+CompilerAssign='TASKING c','.c'
+CompilerNewExt=.adb
+CompilerNewExt=.cfml
+CompilerNewExt=.jsp
+CompilerNewExt=.pl
+CompilerNewExt=.vhd
+CompilerNewExt=.pas
+CompilerNewExt=.tk
+CompilerNewExt=.asp
+CompilerNewExt=.rul
+CompilerNewExt=.cob
+CompilerNewExt=.js
+CompilerAssign='TASKING cmp','.cmp'
+CompilerNewExt=.php
+CompilerNewExt=.rc
+CompilerNewExt=.tcl
+CompilerAssign='TASKING fle','.fle'
+CompilerNewExt=.ini
+CompilerAssign='TASKING cc','.cc'
+CompilerAssign='TASKING icm','.icm'
+CompilerAssign='TASKING ic','.ic'
+CompilerNewExt=.cs
+CompilerNewExt=.bat
+CompilerNewExt=.html
+CompilerAssign='TASKING ccm','.ccm'
+CompilerAssign='TASKING cpp','.cpp'
+CompilerAssign='TASKING cxx','.cxx'
+CompilerAssign='TASKING asm','.asm'
+CompilerNewExt=.txt
+CompilerNewExt=.nrx
+CompilerNewExt=.java
+CompilerNewExt=.sqlj
+CompilerNewExt=.xml
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@"%Q" -M@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@"%Q" -M@"%Q" -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f "%b%{??v|___}e"',0x8000040
+
+[Files]
+.\30_5015_Felix.dpt
+.\WDT.C
+.\ASC0.C
+.\CC2.C
+.\CCU63.C
+.\GPT1.C
+.\GPT2.C
+.\INT.C
+.\IO.C
+.\MAIN.C
+.\RTC.C
+.\SCS.C
+.\U0C1_RS485_COM1.C
+.\U1C0_SLAVE_COM5.C
+.\U1C1_USB_COM2.C
+.\U2C0_LAN_COM3.C
+.\U2C1_RS232_COM4.C
+.\USIC0.C
+.\USIC1.C
+.\USIC2.C
+.\XE16xREGS.H
+.\ASC0.H
+.\CC2.H
+.\CCU63.H
+.\GPT1.H
+.\GPT2.H
+.\INT.H
+.\IO.H
+.\MAIN.H
+.\RTC.H
+.\SCS.H
+.\U0C1_RS485_COM1.H
+.\U1C0_SLAVE_COM5.H
+.\U1C1_USB_COM2.H
+.\U2C0_LAN_COM3.H
+.\U2C1_RS232_COM4.H
+.\USIC0.H
+.\USIC1.H
+.\USIC2.H
+.\WDT.H
+
+[Ede]
+Toolchain=c:\program files (x86)\tasking\c166 v8.8r1\etc\c166.dol
+ToolchainName=TASKING Tools for C166/ST10  v8.8r1
+ProjectDir=d:\firmware\30-5015_felix\xe167f
+OutputDir=d:\firmware\30-5015_Felix\xe167f\output
+EdeVersion=99.9r9 (Build 152)
+CodeWrightVersion=6.5b
+DefBuildSettings=True
+SaveFiles=True
+AbsolutePathNames=False
+StopAfterError=True
+KeepTmpFiles=False
+ExtMakefile=False
+ExtMakefileName=
+UserMakefile=False
+UserMakefileName=
+UseMakeOptions=False
+MakeOptions=
+CheckTarget=True
+ExtDebugger=False
+ExtDebuggerName=
+UseDOSShell=False
+SaveOptionMethod=0
+SaveOptionFileName=d:\firmware\30-5015_felix\xe167f\felix_xe167f.opt
+LoadOptionFileName=d:\firmware\30_5003_quad_stac\xe167f\quad_stack_xe167f.opt
+LoadOptionStartup=False
+GroupProc=0
+GroupCpp=0
+GroupC=0
+GroupMisraC=0
+GroupAsm=0
+GroupMpp=0
+GroupLL=0
+GroupXvw=0
+DASSetup=0
+GroupList=GroupProc,GroupCpp,GroupC,GroupMisraC,GroupAsm,GroupMpp,GroupLL,GroupXvw,DASSetup
+
+[Directories]
+BinDir1=$(PRODDIR)\bin
+IncDir1=d:\firmware
+IncDir2=d:\firmware\30-5015_felix\libs\standard
+IncDir3=d:\firmware\30-5015_Felix
+IncDir4=d:\firmware\30-5015_Felix\cmx_rtx
+IncDir5=d:\firmware\30-5015_felix\libs\undefs
+IncDir6=d:\firmware\30-5015_felix\libs\cmx-rtx
+IncDir7=$(PRODDIR)\include
+LibDir1=$(PRODDIR)\lib
+
+[DefaultOptions]
+CpuType=CpuXE167F
+CpuDerivative=FlashXE167F96F
+CPUCON1=0x0007
+LocSmallModelDef=0
+LocSmallModelPag=1
+LocDPP0=769
+LocDPP1=897
+LocDPP2=896
+CpuCPUAddStartupCode=0
+CpuEva=0
+CClearBitRam=0
+FlashVectorBaseAddress=FlashVectorBaseAddressVECSEG
+CPUCON2=0x8FBB
+SYSCON1=0x0003
+VECSEG_enable=1
+VECSEG=0x00C0
+ADDRSEL7_enable=1
+ADDRSEL7=0x0000
+EBCMOD0_enable=1
+EBCMOD0=0x5400
+FCONCS0_enable=1
+FCONCS0=0x0000
+FCONCS7=0x0027
+TCONCS0_enable=1
+TCONCS0=0x0000
+CppDefineList=CppDefineMacro,_ONLY_STEP_AND_DIRECTION_,_NO_FRAM_COMMANDS_,_NO_TQM_DISPLAY_,_OL7001_SELMA_CMD_H_,CppDefineDefinition,1
+OutLib=1
+CPragma=nocustack
+OutAbs=0
+LnkLocHeaderPage=1
+LnkLocRegMap=1
+LnkLocSymbTab=1
+LnkLocSummary=1
+LocMemList=LocMemListType,LocMemListTypeRam,LocMemListTypeRam,LocMemListTypeRam,LocMemListTypeRom,LocMemListTypeRom,LocMemListStart,0A000h,0F600h,0E00000h,0C00000h,0C10000h,LocMemListEnd,0DFFFh,0FDFFh,0E0FFFFh,0C0EFFFh,0CBFFFFh,LocMemListFill,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListPattern,0xFF,0xFF,0xFF,0xFF,0xFF,LocMemListNotes
+LocMemReserveIRAM=0
+LocClassesList=LocClassesNames,ISRFUNC,LocClassesStart,0xC10000,LocClassesEnd,0xC1FFFF,LocClassesUnique,LocClassesUniqueNo,LocClassesNotes
+LocHeapSize=0
+CpuExt2SskSize=512
+
+[Options]
+FileList=
+
+[Project]
+ConfigSetLinkDBFilename='C:\Users\i10166005\AppData\Local\TASKING\c166 v8.8r1\cwright.ldb'
+ConfigSetMarkDBFilename='C:\Users\i10166005\AppData\Local\TASKING\c166 v8.8r1\cwright.mrk'
+ConfigSetSymbolDBFilename='D:\Firmware\30-5015_Felix\XE167F\Felix_XE167F.sbl'
+EditSetPath=''

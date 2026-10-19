@@ -1,0 +1,21 @@
+[submodule "Libs/crc16"]
+	path = Libs/crc16
+	url = https://egit.endress.com/aj/fw-electronics/liquidhandling/submodules-cybio/Shared/crc16.git
+[submodule "Libs/standard"]
+	path = Libs/standard
+	url = https://egit.endress.com/aj/fw-electronics/liquidhandling/submodules-cybio/Shared/standard.git
+[submodule "Libs/undefs"]
+	path = Libs/undefs
+	url = https://egit.endress.com/aj/fw-electronics/liquidhandling/submodules-cybio/Shared/undefs.git
+[submodule "Libs/fram"]
+	path = Libs/fram
+	url = https://egit.endress.com/aj/fw-electronics/liquidhandling/submodules-cybio/Shared/memory/fram.git
+[submodule "Libs/spi"]
+	path = Libs/spi
+	url = https://egit.endress.com/aj/fw-electronics/liquidhandling/submodules-cybio/Shared/busse/spi.git
+[submodule "Libs/developmentbase"]
+	path = Libs/developmentbase
+	url = https://egit.endress.com/aj/fw-electronics/liquidhandling/submodules-cybio/developmentbase.git
+[submodule "Libs/cmx-rtx"]
+	path = Libs/cmx-rtx
+	url = https://egit.endress.com/aj/fw-electronics/liquidhandling/submodules-cybio/thirdparty/cmx-rtx.git
